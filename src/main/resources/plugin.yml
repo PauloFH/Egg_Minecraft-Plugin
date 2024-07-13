@@ -1,0 +1,24 @@
+name: Egg_plugin
+version: '${project.version}'
+main: br.catitags.Egg_plugin
+api-version: '1.16'
+description: Um plugin
+author: Catita_GS
+website: P4ul0FH.github.io
+prefix: Testing
+commands:
+  lobby:
+    description: Teleporta o jogador para o lobby
+    usage: /<command>
+  pvp:
+    description: Teleporta o jogador para a arena PvP
+    usage: /<command>
+  survival:
+    description: Teleporta o jogador para o mundo survival
+    usage: /<command>
+  loja:
+    description: Teleporta o jogador para a loja
+    usage: /<command>
+  tpr:
+    description: Teleporta o jogador para uma localização aleatória no mundo survival
+    usage: /<command>
